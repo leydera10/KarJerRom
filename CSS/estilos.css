@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+ul {
+  list-style: none;
+  display: block;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(180, 56, 56);
+  color: #ffffff !important;
+}
+
+.logo {
+  width: 200px;
+  display: flex;
+  margin: 0px 0px 0px 50px;
+  flex-wrap: wrap;
+}
+
+.logo2 img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.contenedorbanner img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/7;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  max-width: 1800px;
+  justify-content: center;
+  align-items: center;
+}
+.container .card {
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: rgb(237, 237, 237);
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+.container .card img {
+  width: 100%;
+  border-radius: 50%;
+  padding: 10px 10px 0px 10px;
+}
+.container .card .contenido {
+  padding: 25px;
+  text-align: center;
+}
+.container .card .contenido h3 {
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.container .card .contenido p {
+  line-height: 1.5;
+  color: gray;
+}
+.container .card .contenido a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  color: rgb(154, 16, 43);
+  border: 1px solid rgb(154, 16, 43);
+  border-radius: 4px;
+  transition: all 400ms ease;
+}
+.container .card .contenido a:hover {
+  background: rgb(154, 16, 43);
+  color: white;
+}
+.container .card:hover {
+  box-shadow: 5px 5px 10px rgb(154, 16, 43);
+  transform: translateY(-3%);
+}
+
+.misionvision {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+}
+.misionvision .mision .titulo-mision {
+  display: flex;
+  margin: 5px 8px 8px 5px;
+  padding: 20px;
+  justify-content: center;
+}
+.misionvision .mision > p {
+  display: flex;
+  margin-bottom: 5%;
+  justify-content: center;
+  padding: 15px;
+  color: black;
+}
+.misionvision .vision .titulo-vision {
+  display: flex;
+  margin: 5px 8px 8px 5px;
+  padding: 20px;
+  justify-content: center;
+}
+.misionvision .vision > p {
+  display: flex;
+  margin-bottom: 5%;
+  justify-content: center;
+  padding: 15px;
+  color: black;
+}
+
+.titulocirtulo {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  color: black;
+}
+
+.tituloqs {
+  display: flex;
+  margin: 5px 8px 8px 5px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.quienessomosp {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  color: black;
+  text-align: center;
+}
+
+footer {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+}
+footer .justo {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+footer .footer-left {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+footer .footer-left p {
+  text-align: center;
+}
+footer .redes_sociales {
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+footer .redes_sociales img {
+  width: 20%;
+  padding: 5px;
+  margin-left: 10%;
+}
+footer .redes_sociales img:hover {
+  transform: scale(1.03);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+form label {
+  width: 150px;
+  display: inline-block;
+  margin: 10px 0;
+}
+form input {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+form select {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+form button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(154, 16, 43);
+  color: white;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #000000;
+}
+
+.mapayformulario {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 2%;
+}
+.mapayformulario .map {
+  width: 100%;
+  padding: 0% 10% 10% 10%;
+  align-content: center;
+}
+.mapayformulario .map h3 {
+  margin-bottom: 10%;
+}
+
+@media screen and (max-width: 767px) {
+  .justo {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 50% 25%;
+  }
+  .justo img {
+    margin: 0 auto;
+  }
+  .logo {
+    aspect-ratio: 2/1;
+  }
+  .logo2 {
+    padding: 3%;
+  }
+  .logo2 img {
+    padding: 3%;
+    aspect-ratio: 2/1;
+  }
+  .footer-left {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .redes_sociales {
+    width: 100%;
+    justify-content: center;
+  }
+  .redes_sociales img {
+    width: 50px;
+  }
+  .misionvision {
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 17%;
+    padding-bottom: 10%;
+  }
+  .container .card .contenido p {
+    display: none;
+  }
+  .contenedorbanner img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/15;
+  }
+  .mapayformulario {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    padding-bottom: 5%;
+  }
+  .mapayformulario div {
+    width: 100%;
+    text-align: center;
+  }
+  .mapayformulario div h3 {
+    padding-top: 10%;
+  }
+  .mapayformulario div iframe {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .justo {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 100%;
+  }
+  .logo2 {
+    padding: 3%;
+  }
+  .logo2 img {
+    padding: 3%;
+  }
+  .justo img {
+    margin: 0 auto;
+  }
+  .footer-left {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .redes_sociales {
+    width: 100%;
+    justify-content: center;
+  }
+  .redes_sociales img {
+    width: 50px;
+  }
+  .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    grid-column-gap: 2rem;
+  }
+  .container .card .contenido p {
+    display: none;
+  }
+  .contenedorbanner img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/8;
+  }
+  .mapayformulario {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    padding-bottom: 5%;
+  }
+  .mapayformulario div {
+    width: 100%;
+    text-align: center;
+  }
+  .mapayformulario div h3 {
+    padding-top: 10%;
+  }
+  .mapayformulario div iframe {
+    width: 100%;
+  }
+}/*# sourceMappingURL=estilos.css.map */

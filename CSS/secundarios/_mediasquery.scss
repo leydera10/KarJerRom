@@ -1,0 +1,184 @@
+@media screen  and (max-width: 767px) {
+
+    
+
+    .justo { 
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 50% 25% ;
+
+        & img {
+            margin: 0 auto;
+        };
+    
+    }
+
+    .logo {
+        aspect-ratio: 2/1;
+    }
+
+    .logo2 {
+        padding: 3%;
+
+        & img {
+            padding: 3%;
+            aspect-ratio: 2/1;
+        }
+    }
+
+    .footer-left {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .redes_sociales{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .redes_sociales img{
+        width: 50px;
+        
+    }
+
+    .misionvision {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        padding-left: 10%;
+        padding-right: 17%;
+        padding-bottom: 10%;
+
+        & .card {
+            
+            & .contenido {
+
+                & p{
+                    display: none;
+                }
+            }
+        }
+        
+    }
+
+    .contenedorbanner img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/15;
+    }
+    .mapayformulario {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    padding-bottom: 5%;
+
+    & div {
+        width: 100%;
+        text-align: center;
+         & h3 {
+            padding-top: 10%;
+         }
+        
+        & iframe {
+            width: 100%;
+        }
+    }
+  }
+  
+
+  }
+
+  
+
+  @media screen  and (min-width: 768px) and (max-width: 1023px) {
+
+    .justo { 
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+        grid-template-rows: 100%  ;
+    
+    }
+
+    .logo2 {
+        padding: 3%;
+    }
+
+    .logo2 img{
+        padding: 3%;
+    }
+
+    .justo img { 
+        margin: 0 auto;
+    
+    }
+
+    .footer-left {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .redes_sociales{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .redes_sociales img{
+        width: 50px;
+        
+    }
+
+    .container{
+
+        width: 100% ;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:1fr 1fr;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 10%;
+        grid-column-gap: 2rem;
+         
+        & .card {
+
+            & .contenido {
+
+                & p{
+                    display: none;
+                }
+            }
+        }
+        
+    }
+
+    .contenedorbanner img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/8;
+    }
+
+    .mapayformulario {
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        padding-bottom: 5%;
+    
+        & div {
+            width: 100%;
+            text-align: center;
+             & h3 {
+                padding-top: 10%;
+             }
+            
+            & iframe {
+                width: 100%;
+            }
+        }
+      }
+  }

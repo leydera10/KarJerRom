@@ -1,0 +1,30 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    
+}
+
+$colortextocuerpo: black;
+$colortextfooter_barra: white;
+$colorbotton: rgb(154, 16, 43);
+
+body{ 
+    font-family: 'Lato', sans-serif;
+}
+
+ul {
+    list-style: none;
+
+    display: block;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(180, 56, 56);
+    color: #ffffff !important;
+}
